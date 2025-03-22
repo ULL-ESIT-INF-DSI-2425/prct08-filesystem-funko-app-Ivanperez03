@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "name": "Goku",
+  "description": "Modo Ultra Instinto",
+  "type": "Pop!",
+  "genre": "Ánime",
+  "franchise": "Dragon Ball",
+  "number": 9,
+  "exclusive": true,
+  "specialFeatures": "Aura plateada",
+  "marketValue": 150
+}

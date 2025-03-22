@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Luigi",
+  "description": "El hermano verde",
+  "type": "Pop!",
+  "genre": "Videojuegos",
+  "franchise": "Nintendo",
+  "number": 12,
+  "exclusive": false,
+  "specialFeatures": "Sombrero verde",
+  "marketValue": 40
+}

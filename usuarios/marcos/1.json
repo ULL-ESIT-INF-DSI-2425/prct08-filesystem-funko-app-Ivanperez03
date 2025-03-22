@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Iron Man",
+  "description": "Traje clásico",
+  "type": "Pop!",
+  "genre": "Películas y TV",
+  "franchise": "Marvel",
+  "number": 45,
+  "exclusive": false,
+  "specialFeatures": "Brilla",
+  "marketValue": 75
+}

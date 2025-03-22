@@ -1,18 +1,16 @@
 import { describe, test, expect } from 'vitest';
-import { Funko } from "../src/funkoElements.ts";
+import { Funko } from '../src/funkoElements.js';
 
-describe('Saludar', () => {
-  test('debería retornar el saludo proporcionado', () => {
-    expect(Saludar('Hola')).toBe('Hola');
-    expect(Saludar('Buenos días')).toBe('Buenos días');
-    expect(Saludar('Hello')).toBe('Hello');
-  });
-
-  test('debería retornar una cadena vacía si se pasa una cadena vacía', () => {
-    expect(Saludar('')).toBe('');
-  });
-
-  test('debería manejar espacios en el saludo', () => {
-    expect(Saludar('  Hola  ')).toBe('  Hola  ');
+describe('Funko class', () => {
+  test('should create a Funko object correctly', () => {
+    const funko = new Funko(1, 'Sonic', 'Fastest', 'Pop!', 'Videojuegos', 'Sonic', 22, true, 'HeadBoing', 100);
+    expect(funko.id).toBe(1);
+    expect(funko.name).toBe('Sonic');
+    expect(funko.type).toBe('Pop!');
+    expect(funko.genre).toBe('Videojuegos');
+    expect(funko.franchise).toBe('Sonic');
+    expect(funko.exclusive).toBeTruthy();
+    expect(funko.specialFeatures).toBe('HeadBoing');
+    expect(funko.marketValue).toBeGreaterThan(0);
   });
 });

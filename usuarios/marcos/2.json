@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "name": "Minion",
+  "description": "¡Banana!",
+  "type": "Pop!",
+  "genre": "Animación",
+  "franchise": "Gru",
+  "number": 7,
+  "exclusive": false,
+  "specialFeatures": "Gafas",
+  "marketValue": 10
+}

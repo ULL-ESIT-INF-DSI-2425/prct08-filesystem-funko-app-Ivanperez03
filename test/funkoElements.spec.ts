@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { Saludar } from "../src/index.ts";
+import { Funko } from "../src/funkoElements.ts";
 
 describe('Saludar', () => {
   test('debería retornar el saludo proporcionado', () => {
